@@ -1,0 +1,86 @@
+.works-helper {
+  position: relative;
+  overflow: initial;
+}
+
+.works-img {
+  border-radius: 10px;
+}
+
+.works-link {
+  position: relative;
+}
+
+.works-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 250px;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 15px;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(131, 131, 131, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.works-link:hover .works-description {
+  opacity: 1;
+}
+
+.works-arrow {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/arrow-slider.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 4;
+}
+
+.works-arrow--prev {
+  left: 10px;
+}
+
+.works-arrow--next {
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+  .works-arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  .works-description {
+    padding: 10px;
+    max-width: 200px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 468px) {
+  .works-arrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  .works-description {
+    line-height: 1;
+    font-size: 14px;
+  }
+
+  .works-arrow--prev {
+    left: 5px;
+  }
+
+  .works-arrow--next {
+    right: 5px;
+  }
+}
