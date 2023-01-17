@@ -20,8 +20,8 @@
   line-height: 1.5;
   padding: 15px;
   border-radius: 10px;
-  color: rgba(0, 0, 0, 0.7);
-  background-color: rgb(131, 131, 131, 0.4);
+  color: #fff;
+  background-color: rgba(0, 102, 255, 0.5);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
@@ -36,7 +36,7 @@
   display: block;
   width: 60px;
   height: 60px;
-  background-image: url("../img/arrow-slider.svg");
+  background-image: url("../../img/arrow-slider.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -54,8 +54,8 @@
 
 @media (max-width: 768px) {
   .works-arrow {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 
   .works-description {
@@ -67,13 +67,13 @@
 
 @media (max-width: 468px) {
   .works-arrow {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   .works-description {
     line-height: 1;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .works-arrow--prev {

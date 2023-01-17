@@ -1,4 +1,4 @@
-import Swiper from "../lib/swiper-bundle.esm.browser.min.js";
+import Swiper from "../../lib/swiper-bundle.esm.browser.min.js";
 
 new Swiper(".works-content", {
   sliderPerView: 1,

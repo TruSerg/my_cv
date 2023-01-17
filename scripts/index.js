@@ -1,2 +1,2 @@
-import "./burger.js";
-import "./slider.js";
+import "./modules/burger.js";
+import "./modules/slider.js";
