@@ -61,6 +61,10 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+  }
+
   .footer-container {
     grid-template-columns: repeat(2, 1fr);
   }

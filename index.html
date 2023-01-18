@@ -16,26 +16,28 @@
   <body>
     <header class="header">
 		<div class="container header-container">
-			<img src="" alt="logo" class="header-logo">
+			<a href="#" class="header-logo">
+				<img src="img/cv.png" alt="logo" >
+			</a>
 			<nav class="header-navigation navigation">
 				<ul class="navigation-list">
 					<li class="navigation-item">
-						<a href="#" class="navigation-link navigation-link--hover">Contacts</a>
+						<a href="#contacts" class="navigation-link navigation-link--hover">Contacts</a>
 					</li>
 					<li class="navigation-item">
-						<a href="#" class="navigation-link navigation-link--hover">About</a>
+						<a href="#about" class="navigation-link navigation-link--hover">About</a>
 					</li>
 					<li class="navigation-item">
-						<a href="#" class="navigation-link navigation-link--hover">Experience</a>
+						<a href="#experience" class="navigation-link navigation-link--hover">Experience</a>
 					</li>
 					<li class="navigation-item">
-						<a href="#" class="navigation-link navigation-link--hover">Education</a>
+						<a href="#education" class="navigation-link navigation-link--hover">Education</a>
 					</li>
 					<li class="navigation-item">
-						<a href="#" class="navigation-link navigation-link--hover">Works</a>
+						<a href="#works" class="navigation-link navigation-link--hover">Works</a>
 					</li>
 					<li class="navigation-item">
-						<a href="#" class="navigation-link navigation-link--hover">Skills</a>
+						<a href="#skills" class="navigation-link navigation-link--hover">Skills</a>
 					</li>
 				</ul>
 			</nav>
@@ -44,9 +46,11 @@
 			</div>
 	 </header>
     <main>
-      <section class="contacts section">
+      <section class="contacts section" id="contacts">
 			<div class="container contacts-container">
-				<img src="img/photo.jpg" alt="photo" class="contacts-photo">
+				<div class="contacts-image">
+					<img src="img/photo.jpg" alt="photo" class="contacts-photo">
+				</div>
 				<div class="contacts-data data">
 					<h1 class="data-name">Sergey Trukhan</h1>
 					<p class="data-position">Junior Front-end Developer (React)</p>
@@ -69,7 +73,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="about section">
+		<section class="about section" id="about">
 			<div class="container section-container">
 				<h2 class="about-title section-title">About me</h2>
 				<div class="about-body">
@@ -87,7 +91,7 @@
 				</div>			
 			</div>
 		</section>
-		<section class="experience section">
+		<section class="experience section" id="experience">
 			<div class="container section-container">
 				<h2 class="experience-title section-title">Experience</h2>
 				<div class="experience-body">
@@ -112,7 +116,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="education section">
+		<section class="education section" id="education">
 			<div class="container section-container">
 				<h2 class="education-title section-title">Education</h2>
 				<div class="education-body">
@@ -143,7 +147,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="works section">
+		<section class="works section" id="works">
 			<div class="container section-container">
 				<h2 class="works-title section-title">My best works</h2>
 				<div class="works-helper">
@@ -167,6 +171,42 @@
 									<p class="works-description">This project are developed via React, Redux, Scss.</p>
 								</a>
 							</li>
+							<li class="works-item swiper-slide">
+								<a href="https://luminous-concha-70b4db.netlify.app" target="_blank" class="works-link">
+									<img src="img/works/work4.png" alt="work image" class="works-img">
+									<p class="works-description">This project are developed via Vue, Js, Ant-design.</p>
+								</a>
+							</li>
+							<li class="works-item swiper-slide">
+								<a href="https://strong-toffee-3273ab.netlify.app" target="_blank" class="works-link">
+									<img src="img/works/work5.png" alt="work image" class="works-img">
+									<p class="works-description">This project are developed via Vue, Js, Ant-design.</p>
+								</a>
+							</li>
+							<li class="works-item swiper-slide">
+								<a href="https://truserg.github.io/hungry-people/dist" target="_blank" class="works-link">
+									<img src="img/works/work6.png" alt="work image" class="works-img">
+									<p class="works-description">This project are developed via Js, Pug, Scss, Gulp.</p>
+								</a>
+							</li>
+							<li class="works-item swiper-slide">
+								<a href="https://truserg.github.io/t.pass/dist" target="_blank" class="works-link">
+									<img src="img/works/work7.png" alt="work image" class="works-img">
+									<p class="works-description">This project are developed via Js, Pug, Scss, Gulp.</p>
+								</a>
+							</li>
+							<li class="works-item swiper-slide">
+								<a href="https://truserg.github.io/brella" target="_blank" class="works-link">
+									<img src="img/works/work8.png" alt="work image" class="works-img">
+									<p class="works-description">This project are developed via Js, Html, Css.</p>
+								</a>
+							</li>
+							<li class="works-item swiper-slide">
+								<a href="https://truserg.github.io/rayal-park" target="_blank" class="works-link">
+									<img src="img/works/work9.png" alt="work image" class="works-img">
+									<p class="works-description">This project are developed via Js, Html, Css.</p>
+								</a>
+							</li>
 						</ul>
 					</div>
 					<button class="works-arrow works-arrow--prev"></button>
@@ -174,7 +214,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="skills section">
+		<section class="skills section" id="skills">
 			<div class="container section-container">
 				<h2 class="skills-title section-title">My skills</h2>
 				<ul class="skills-list">

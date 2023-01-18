@@ -13,8 +13,12 @@
   gap: 30px;
 }
 
-.contacts-photo {
+.contacts-image {
   max-width: 280px;
+}
+
+.contacts-photo {
+  width: 100%;
   border-radius: 50%;
   border: 5px solid #fff;
   object-fit: cover;
@@ -66,7 +70,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .contacts-photo {
+  .contacts-image {
     justify-self: center;
   }
 
@@ -99,7 +103,11 @@
 }
 
 @media (max-width: 468px) {
-  .contacts-photo {
+  .contacts-image {
     max-width: 220px;
+  }
+
+  .contacts-photo {
+    border: 3px solid #fff;
   }
 }
