@@ -3,7 +3,7 @@
 }
 
 .contacts {
-  background-color: #0088ff;
+  background-color: var(--second-bg-color);
 }
 
 .contacts-container {
@@ -20,12 +20,12 @@
 .contacts-photo {
   width: 100%;
   border-radius: 50%;
-  border: 5px solid #fff;
+  border: 5px solid var(--second-color);
   object-fit: cover;
 }
 
 .data {
-  color: #fff;
+  color: var(--second-color);
   font-size: 20px;
 }
 
@@ -39,7 +39,7 @@
   justify-self: end;
   font-size: 20px;
   line-height: 1.5;
-  color: #fff;
+  color: var(--second-color);
 }
 
 .info-text {
@@ -52,7 +52,7 @@
 
 .info-item {
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--four-color);
 }
 
 .info-link {
@@ -108,6 +108,6 @@
   }
 
   .contacts-photo {
-    border: 3px solid #fff;
+    border: 3px solid var(--second-color);
   }
 }

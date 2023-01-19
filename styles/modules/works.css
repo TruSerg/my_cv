@@ -20,7 +20,7 @@
   line-height: 1.5;
   padding: 15px;
   border-radius: 10px;
-  color: #fff;
+  color: var(--second-color);
   background-color: rgba(0, 102, 255, 0.5);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -44,12 +44,13 @@
 }
 
 .works-arrow--prev {
+  transform: translate(0, -50%);
   left: 10px;
 }
 
 .works-arrow--next {
+  transform: rotate(180deg) translate(0, 50%);
   right: 10px;
-  transform: rotate(180deg);
 }
 
 @media (max-width: 768px) {

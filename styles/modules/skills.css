@@ -12,20 +12,20 @@
 }
 
 .skills-item svg {
-  fill: #00bcd4;
+  fill: var(--svg-color);
   max-width: 80px;
   transition: fill 0.3s ease-in-out;
 }
 
 .skills-item:hover svg {
-  fill: #7db122;
+  fill: var(--three-color);
 }
 
 .skills-text {
   position: absolute;
   font-size: 20px;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--four-color);
   display: flex;
   align-items: center;
   justify-content: center;

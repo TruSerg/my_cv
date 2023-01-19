@@ -17,7 +17,7 @@
 
 .item-text {
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--four-color);
   margin-bottom: 10px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .section-subtitle {
-  color: #7db122;
+  color: var(--three-color);
   font-size: 24px;
   font-weight: 600;
 }
@@ -36,7 +36,7 @@
 }
 
 .section-description {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--four-color);
   font-size: 22px;
   font-weight: 600;
 }

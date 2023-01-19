@@ -1,6 +1,6 @@
 .footer {
   padding: 30px 0;
-  background-color: #bdf3ff;
+  background-color: var(--footer-bg-color);
 }
 
 .footer-container {
@@ -39,14 +39,14 @@
 .footer-phone {
   position: relative;
   justify-self: end;
-  color: #0066ff;
+  color: var(--two-color);
   padding: 10px 0;
   font-size: 18px;
   transition: color 0.3s ease-in-out;
 }
 
 .footer-phone:hover {
-  color: #7db122;
+  color: var(--three-color);
 }
 
 @media (max-width: 1058px) {
