@@ -4,7 +4,7 @@
 }
 
 .item-body {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .item-body:last-child {
@@ -30,5 +30,9 @@
 @media (max-width: 924px) {
   .education-body {
     flex-direction: column;
+  }
+
+  .item-body {
+    margin-bottom: 20px;
   }
 }
