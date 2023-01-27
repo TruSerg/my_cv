@@ -1,14 +1,10 @@
 .education-body {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-.item-body {
-  margin-bottom: 35px;
-}
-
-.item-body:last-child {
-  margin-bottom: 0;
+.education-item {
+  align-self: flex-end;
 }
 
 .education-titles {
@@ -27,12 +23,12 @@
   line-height: 1.5;
 }
 
-@media (max-width: 924px) {
+@media (max-width: 768px) {
   .education-body {
-    flex-direction: column;
+    margin-bottom: 30px;
   }
 
-  .item-body {
-    margin-bottom: 20px;
+  .education-body:last-child {
+    margin-bottom: 0;
   }
 }

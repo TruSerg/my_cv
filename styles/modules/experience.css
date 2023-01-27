@@ -3,22 +3,19 @@
   justify-content: space-between;
 }
 
-.experience-item {
+.section-date {
+  padding: 15px;
   font-size: 20px;
-}
-
-.experience-text {
-  margin-bottom: 10px;
-}
-
-.experience-text:last-child {
-  margin-bottom: 0;
 }
 
 .item-text {
   font-size: 18px;
   color: var(--four-color);
   margin-bottom: 10px;
+}
+
+.item-text:last-child {
+  margin-bottom: 0;
 }
 
 .item-title {
@@ -60,6 +57,11 @@
 }
 
 @media (max-width: 768px) {
+  .section-date {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
   .section-subtitle {
     font-size: 22px;
   }
