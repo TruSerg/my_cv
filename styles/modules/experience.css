@@ -39,11 +39,26 @@
 }
 
 .list-text {
+  position: relative;
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
+  padding-left: 15px;
 }
 
 .list-text:last-child {
   margin-bottom: 0;
+}
+
+.list-text::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  left: -0.5px;
+  border-radius: 50%;
+  background-color: var(--three-color);
 }
 
 @media (max-width: 924px) {
@@ -73,6 +88,11 @@
   .section-description {
     font-size: 20px;
   }
+
+  .list-text::before {
+    width: 7px;
+    height: 7px;
+  }
 }
 
 @media (max-width: 468px) {
@@ -86,5 +106,10 @@
 
   .section-description {
     font-size: 18px;
+  }
+
+  .list-text::before {
+    width: 6px;
+    height: 6px;
   }
 }
